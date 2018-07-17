@@ -1,6 +1,15 @@
 # Introduction
 
-This is a library for laying out non-overlapping text labels in [plotly](https://plot.ly).
+This is a library for laying out non-overlapping text labels in
+[plotly](https://plot.ly).
+
+Plotly generates really nice scatter plots, but when you try to
+annotate those with text, it can often lead to labels overlapping
+each other or the markers.
+
+This library allows you to feed in a scatter plot and layout
+object from plotly and it will attempt to find label positions
+that don't overlap (or overlap to a minimum extent).
 
 # Usage
 
