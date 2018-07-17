@@ -1,6 +1,6 @@
 # Introduction
 
-This is a library for laying out non-overlapping text labels in [https://plot.ly plotly].
+This is a library for laying out non-overlapping text labels in [plotly](https://plot.ly).
 
 # Usage
 
